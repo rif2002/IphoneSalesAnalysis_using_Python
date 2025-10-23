@@ -1,2 +1,39 @@
-# IphoneSalesAnalysis_using_Python
-Analyzed sales and review data of iPhone models to uncover trends in ratings, pricing, and customer feedback. The project involved identifying top-rated and most-reviewed products, comparing price ranges, and visualizing insights using Python and Plotly, helping understand consumer preferences and market dynamics.
+# iPhone Sales Analysis in India
+
+This project analyzes iPhone sales data from **Flipkart** to uncover trends in **ratings, reviews, pricing, and discounts**. The goal is to identify top-rated iPhones, understand customer preferences, and explore relationships between price, discounts, and number of ratings.
+
+## Dataset
+- Source: Apple iPhone Data
+- Columns include:
+  - `Product Name`, `Brand`, `Sale Price`, `Mrp`, `Discount Percentage`
+  - `Number Of Ratings`, `Number Of Reviews`, `Star Rating`, `Ram`, `Product URL`
+
+## Key Analyses and Insights
+
+### Top-Rated iPhones
+- The top 10 highest-rated iPhones were extracted based on star ratings.
+- Example: iPhone 11 Pro Max variants are among the highest rated.
+
+### Number of Ratings and Reviews
+- Bar charts were created to visualize the **number of ratings** and **number of reviews** for the top-rated iPhones.
+- Insight: **Apple iPhone XR** leads in both number of ratings and reviews, indicating high popularity among users.
+
+### Price vs. Ratings
+- Scatter plots show a negative linear relationship between **sale price** and **number of ratings**.
+- Insight: Lower-priced iPhones tend to receive more ratings, suggesting higher sales volumes.
+
+### Discount Percentage vs. Ratings
+- Scatter plots show the relationship between **discount percentage** and **number of ratings**.
+- Insight: iPhones with higher discounts generally receive more ratings, showing that discounts influence purchasing behavior.
+
+### Most and Least Expensive iPhones
+- **Most Expensive:** iPhone 12 Pro (Silver, 512 GB) – ₹140,900
+- **Least Expensive:** iPhone SE (White, 64 GB) – ₹29,999
+
+## Tools and Technologies
+- **Python**: Data cleaning, manipulation
+- **Pandas & NumPy**: Data processing and aggregation
+- **Plotly Express & Graph Objects**: Interactive visualizations
+
+## Conclusion
+This analysis provides insights into **customer preferences, pricing strategy, and product popularity** for iPhones in India. It highlights the impact of price and discounts on sales and helps identify which iPhone models are most favored by users.
