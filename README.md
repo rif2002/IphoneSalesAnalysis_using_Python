@@ -3,7 +3,8 @@
 This project analyzes iPhone sales data from **Flipkart** to uncover trends in **ratings, reviews, pricing, and discounts**. The goal is to identify top-rated iPhones, understand customer preferences, and explore relationships between price, discounts, and number of ratings.
 
 ## Dataset
-- Source: Apple iPhone Data
+- Source: Kaggle
+- Dataset: Dataset: [apple_products.csv](https://github.com/rif2002/IphoneSalesAnalysis_using_Python/blob/main/apple_products.csv)
 - Columns include:
   - `Product Name`, `Brand`, `Sale Price`, `Mrp`, `Discount Percentage`
   - `Number Of Ratings`, `Number Of Reviews`, `Star Rating`, `Ram`, `Product URL`
